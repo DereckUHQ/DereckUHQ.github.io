@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inecuaciones</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Inecuaciones</h1>
+        <p>PRECÁLCULO</p>
+    </header>
+
+    <nav>
+        <a href="#conceptos">Conceptos</a>
+        <a href="#clases">Clases / Tipos</a>
+        <a href="#ejemplos">Ejemplos</a>
+        <a href="#problemas">Problemas</a>
+    </nav>
+
+    <main>
+        <section id="conceptos">
+            <h2>¿Qué son las inecuaciones?</h2>
+            <p>Las inecuaciones son expresiones matemáticas que establecen una relación de desigualdad entre dos cantidades. A diferencia de las ecuaciones, las inecuaciones comparan dos expresiones usando los signos &lt;, &gt;, ≤ o ≥ para determinar si una cantidad es mayor, menor o igual que otra.</p>
+        </section>
+
+        <section id="clases">
+            <h2>Clases / Tipos</h2>
+            <div class="card">
+                <h3>Inecuaciones lineales</h3>
+                <p>Son aquellas en las que la variable tiene exponente 1. Ejemplo: 2x + 3 &lt; 7.</p>
+            </div>
+            <div class="card">
+                <h3>Inecuaciones cuadráticas</h3>
+                <p>Contienen la variable elevada al cuadrado. Ejemplo: x² - 4x + 3 &gt; 0.</p>
+            </div>
+            <div class="card">
+                <h3>Inecuaciones racionales</h3>
+                <p>Son aquellas que involucran fracciones con variables en el denominador.</p>
+            </div>
+        </section>
+
+        <section id="ejemplos">
+            <h2>Ejemplos</h2>
+            <div class="card">
+                <p><strong>Ejemplo 1:</strong> Resolver 3x - 5 &lt; 10</p>
+                <p>Solución: 3x &lt; 15 → x &lt; 5</p>
+            </div>
+            <div class="card">
+                <p><strong>Ejemplo 2:</strong> Resolver 2x + 1 ≥ 7</p>
+                <p>Solución: 2x ≥ 6 → x ≥ 3</p>
+            </div>
+        </section>
+
+        <section id="problemas">
+            <h2>Problemas para Resolver</h2>
+            
+            <div class="card">
+                <p><strong>Problema 1:</strong> Resolver la inecuación: 5x - 2 ≥ 8</p>
+                <button class="btn" onclick="mostrarSolucion(1)">Ver solución</button>
+                <div id="solucion1" class="solucion">
+                    <p>5x - 2 ≥ 8 → 5x ≥ 10 → x ≥ 2</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <p><strong>Problema 2:</strong> Resolver: 4 - x &lt; 1</p>
+                <button class="btn" onclick="mostrarSolucion(2)">Ver solución</button>
+                <div id="solucion2" class="solucion">
+                    <p>4 - x &lt; 1 → -x &lt; -3 → x &gt; 3</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <p><strong>Problema 3:</strong> Resolver: x² - 3x + 2 &gt; 0</p>
+                <button class="btn" onclick="mostrarSolucion(3)">Ver solución</button>
+                <div id="solucion3" class="solucion">
+                    <p>Factorizando: (x - 1)(x - 2) &gt; 0.  
+                    Solución: x &lt; 1 o x &gt; 2.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Mini Curso creado por [Dereck Alexander Ventura Ruano / 9960 25 6440] | Universidad Mariano Gálvez Sede Portales</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
